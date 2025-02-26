@@ -44,7 +44,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: frontend
+          image: smottad/lab01:v2
           ports:
           - containerPort: 8080
           readinessProbe:
